@@ -1,0 +1,5 @@
+@EndUserText.label: 'Libros'
+define service Zsd_LIBROS_MFA {
+  expose zcds_libros_mfa;
+  expose zcds_clientes_mfa;
+}
