@@ -11,8 +11,8 @@
 
 
 annotate entity Z360_C_TRAVEL_MFA
-    with 
-{
+    with   
+{   
      @UI.facet: [{ id: 'Travel',
                 purpose: #STANDARD,
                 type: #IDENTIFICATION_REFERENCE,
@@ -97,7 +97,7 @@ annotate entity Z360_C_TRAVEL_MFA
   OverallStatus;
 
   @UI.hidden: true
-  overallstatustext;
+  OverllStatusText;
 
   @UI.hidden: true
   LocalCreatedBy;
